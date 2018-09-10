@@ -1,0 +1,41 @@
+{
+  "name": "diyimg",
+  "version": "1.0.0",
+  "description": "image component for React",
+  "main": "lib/index",
+  "module": "./es/index",
+  "files": [
+    "es",
+    "lib"
+  ],
+  "scripts": {
+    "test": "jest",
+    "compile": "rc-tools run compile --babel-runtime",
+    "gh-pages": "rc-tools run gh-pages",
+    "start": "rc-tools run server",
+    "pub": "rc-tools run pub --babel-runtime",
+    "lint": "rc-tools run lint",
+    "prepublish": "rc-tools run guard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xinconan/diyimg.git"
+  },
+  "keywords": [
+    "image",
+    "component"
+  ],
+  "author": "xinconan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xinconan/diyimg/issues"
+  },
+  "homepage": "https://github.com/xinconan/diyimg#readme",
+  "devDependencies": {
+    "rc-tools": "^8.2.1"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "prop-types": "^15.6.2"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "diyimg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "image component for React",
   "main": "lib/index",
   "module": "./es/index",

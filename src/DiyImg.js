@@ -46,4 +46,4 @@ DiyImg.propTypes = {
   errorSrc: PropTypes.string,
   className: PropTypes.string
 };
-module.exports = DiyImg;
+export default DiyImg;
